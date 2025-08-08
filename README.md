@@ -1,5 +1,4 @@
 # GammaGroup_JC_DS_FT_JKT_28_FinalProject
-# GammaGroup_JC_DS_FT_JKT_28_FinalProject
 # Turning Churn Into Opportunity: A Strategic Analysis of Telco Customer Behavior
 Created by:
 - **Muhammad Fachry Priambodo**
