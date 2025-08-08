@@ -89,71 +89,71 @@ This notebook is designed for marketing teams who seek a strategic understanding
 
 # **Recommendations**
 Based on the modeling results and interpretation of the most important features, several recommendations can be made:
-1. Prioritize High Churn Score Customers for Active Retention
+1. **Prioritize High Churn Score Customers for Active Retention**
    - Business Actions:
       - Focus retention efforts (special offers, discounts, bonuses) on high-risk churn customers.
       - Create a “save offer” program for customers in their final month of active service.
      
-   🎯 Expected Outcome:
-      > Reduce churn through faster and more targeted interventions.
+   **🎯 Expected Outcome:**
+         > Reduce churn through faster and more targeted interventions.
 
-2. Offer Long-Term Contracts to Monthly Contract Customers
-   - Business Actions:
+2. **Offer Long-Term Contracts to Monthly Contract Customers**
+   - **Business Actions:**
       - Offer migration promos to annual contracts (e.g., 1-month free, extra data quota).
       - Prioritize targeting customers who’ve subscribed for more than 6 months.
 
-   🎯 Expected Outcome:
-      > Reduce churn and increase long-term customer loyalty.
+   **🎯 Expected Outcome:**
+         > Reduce churn and increase long-term customer loyalty.
 
-3. Migrate Manual Payments to Digital / Auto-Pay Methods
-   - Business Actions:
+3. **Migrate Manual Payments to Digital / Auto-Pay Methods**
+   - **Business Actions:**
       - Encourage customers to switch to digital payment methods (e-wallets, debit, etc.).
       - Offer cashback or waive admin fees for those who migrate.
    
-   🎯 Expected Outcome:
-      > More stable customers, smoother payments, and reduced churn risk.
+   **🎯 Expected Outcome:**
+         > More stable customers, smoother payments, and reduced churn risk.
    
-4. Educate New Customers
-   - Business Actions:
+4. **Educate New Customers**
+   - **Business Actions:**
       - Send onboarding content: tutorials, service benefit tips, first-time usage promos.
       - Follow up after the first 30 days of subscription.
-   🎯 Expected Outcome:
-      > New customers feel more engaged → lower churn in the first 3 months.
+   **🎯 Expected Outcome:**
+         > New customers feel more engaged → lower churn in the first 3 months.
    
-5. Segment Campaigns by Demographic & Service Features
-   - Business Actions:
+5. **Segment Campaigns by Demographic & Service Features**
+   - **Business Actions:**
       - For senior customers: provide simple, easy-to-use service packages.
       - For customers without tech support: offer discounted bundled upgrades.
       - For customers without internet: promote add-ons with special pricing.
    
-   🎯 Expected Outcome:
-      > More personalized campaigns → higher relevance and engagement → reduced churn.
+   **🎯 Expected Outcome:**
+         > More personalized campaigns → higher relevance and engagement → reduced churn.
 
-6. Activate Payment Reminders & Early Warnings
-   - Business Actions:
+6. **Activate Payment Reminders & Early Warnings**
+   - **Business Actions:**
       - Send notifications or SMS reminders 5 days before payment due date.
       - Add an “auto-reminder” feature for new customers.
       - Set alerts for payments delayed over 1 week — flag as potential churn risk.
    
-   🎯 Expected Outcome:
-      > Reduce churn caused by late payments & improve payment discipline.
+   **🎯 Expected Outcome:**
+         > Reduce churn caused by late payments & improve payment discipline.
 
-7. Tenure- and Usage-Based Loyalty Program
-   - Business Actions:
+7. **Tenure- and Usage-Based Loyalty Program**
+   - **Business Actions:**
       - Reward loyal customers annually (e.g., 1-month discount, partner vouchers).
       - Launch a “Loyalty Milestone” program with membership levels (Bronze, Silver, Gold) based on tenure and usage.
    
-   🎯 Expected Outcome:
-      > Customers feel valued → less likely to switch to competitors.
+   **🎯 Expected Outcome:**
+         > Customers feel valued → less likely to switch to competitors.
 
-8. Regularly Monitor Churn and Evaluate the Model
+8. **Regularly Monitor Churn and Evaluate the Model**
    - Business Actions:
       - Schedule churn model retraining every 3–6 months.
       - Track important features (e.g., MonthlyCharges, Contract) and how they change over time.
       - Use feedback from marketing and customer service teams to improve model accuracy.
    
-   🎯 Expected Outcome:
-      > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
+   **🎯 Expected Outcome:**
+         > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
 ---
 
 # **Link Tableau**
