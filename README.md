@@ -95,7 +95,7 @@ Based on the modeling results and interpretation of the most important features,
       - Create a “save offer” program for customers in their final month of active service.
      
    **🎯 Expected Outcome:**
-         > Reduce churn through faster and more targeted interventions.
+      > Reduce churn through faster and more targeted interventions.
 
 2. **Offer Long-Term Contracts to Monthly Contract Customers**
    - **Business Actions:**
@@ -103,7 +103,7 @@ Based on the modeling results and interpretation of the most important features,
       - Prioritize targeting customers who’ve subscribed for more than 6 months.
 
    **🎯 Expected Outcome:**
-         > Reduce churn and increase long-term customer loyalty.
+      > Reduce churn and increase long-term customer loyalty.
 
 3. **Migrate Manual Payments to Digital / Auto-Pay Methods**
    - **Business Actions:**
@@ -111,14 +111,15 @@ Based on the modeling results and interpretation of the most important features,
       - Offer cashback or waive admin fees for those who migrate.
    
    **🎯 Expected Outcome:**
-         > More stable customers, smoother payments, and reduced churn risk.
+      > More stable customers, smoother payments, and reduced churn risk.
    
 4. **Educate New Customers**
    - **Business Actions:**
       - Send onboarding content: tutorials, service benefit tips, first-time usage promos.
       - Follow up after the first 30 days of subscription.
+   
    **🎯 Expected Outcome:**
-         > New customers feel more engaged → lower churn in the first 3 months.
+      > New customers feel more engaged → lower churn in the first 3 months.
    
 5. **Segment Campaigns by Demographic & Service Features**
    - **Business Actions:**
@@ -127,7 +128,7 @@ Based on the modeling results and interpretation of the most important features,
       - For customers without internet: promote add-ons with special pricing.
    
    **🎯 Expected Outcome:**
-         > More personalized campaigns → higher relevance and engagement → reduced churn.
+      > More personalized campaigns → higher relevance and engagement → reduced churn.
 
 6. **Activate Payment Reminders & Early Warnings**
    - **Business Actions:**
@@ -136,7 +137,7 @@ Based on the modeling results and interpretation of the most important features,
       - Set alerts for payments delayed over 1 week — flag as potential churn risk.
    
    **🎯 Expected Outcome:**
-         > Reduce churn caused by late payments & improve payment discipline.
+      > Reduce churn caused by late payments & improve payment discipline.
 
 7. **Tenure- and Usage-Based Loyalty Program**
    - **Business Actions:**
@@ -144,7 +145,7 @@ Based on the modeling results and interpretation of the most important features,
       - Launch a “Loyalty Milestone” program with membership levels (Bronze, Silver, Gold) based on tenure and usage.
    
    **🎯 Expected Outcome:**
-         > Customers feel valued → less likely to switch to competitors.
+      > Customers feel valued → less likely to switch to competitors.
 
 8. **Regularly Monitor Churn and Evaluate the Model**
    - Business Actions:
@@ -153,7 +154,7 @@ Based on the modeling results and interpretation of the most important features,
       - Use feedback from marketing and customer service teams to improve model accuracy.
    
    **🎯 Expected Outcome:**
-         > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
+      > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
 ---
 
 # **Link Tableau**
