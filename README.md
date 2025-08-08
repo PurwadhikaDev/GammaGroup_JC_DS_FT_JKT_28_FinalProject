@@ -38,10 +38,11 @@ In the highly competitive telecommunications industry, customer retention has be
 - Generate business-driven recommendations supported by visual insights.
 
 # **Evaluation Metrics**
-- Accuracy: The proportion of correct predictions for both churn and non-churn.
-- Precision & Recall: Especially Recall for the “Churn” class, as it is important to minimize false negatives (customers predicted as non-churn but actually churn).
-- F1-Score: A combination of Precision and Recall.
-- ROC-AUC Score: Measures the model’s ability to distinguish between churn and non-churn classes.
+- Accuracy – the proportion of correct predictions out of all predictions.
+- Precision (macro) – measures the accuracy of positive predictions for both classes equally.
+- Recall (macro) – focuses on minimizing false negatives in the churn class, aligned with the business objective.
+- F1-score (macro) – the balance between precision and recall.
+- ROC-AUC – the model’s ability to distinguish between churn and non-churn classes.
 
 # **Stakeholder**
 This notebook is designed for marketing teams who seek a strategic understanding of churn dynamics and its implications for customer value and service design.
@@ -83,9 +84,6 @@ This notebook is designed for marketing teams who seek a strategic understanding
 8. **Model Explainability**
 
 ---
-
-# **Conclusion**
-??
 
 # **Recommendations**
 Based on the modeling results and interpretation of the most important features, several recommendations can be made:
@@ -155,7 +153,15 @@ Based on the modeling results and interpretation of the most important features,
    
    **🎯 Expected Outcome:**
       > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
+
+---
+
+# **Conclusion**
+This Telco churn analysis demonstrates that by leveraging an optimized predictive model and interpreting key contributing factors, the company can proactively identify high-risk customers and implement more targeted retention strategies. Implementing recommendations such as long-term contracts, migration to digital payments, loyalty programs, and personalized campaigns has the potential to significantly reduce churn rates while enhancing long-term customer loyalty.
+
 ---
 
 # **Link Tableau**
 https://public.tableau.com/views/TurningChurnIntoOpportunityAStrategicAnalysisofTelcoCustomerBehavior/TurningChurnIntoOpportunityAStrategicAnalysisofTelcoCustomerBehavior?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+---
