@@ -79,7 +79,7 @@ This notebook is designed for marketing teams who seek a strategic understanding
 3. **Feature Engineering**
 4. **Preprocessing**
 5. **Model Benchmarking**
-6. **Hyperparameter Tuning** (RandomizedSearchCV)
+6. **Hyperparameter Tuning** (CatBoost)
 7. **Test Data with Best Model**
 8. **Model Explainability**
 
