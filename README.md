@@ -6,10 +6,10 @@ Created by:
 - **Gerald Pascal Ginting**
 
 # **Context**
-In today’s highly competitive telecom industry, customer churn directly impacts profitability and long-term growth. This project explores customer behavior through a data-driven lens to uncover opportunities for improving retention, maximizing revenue, and streamlining operations.
+Telecommunication companies are now facing significant challenges in retaining customers amid increasingly fierce market competition. One of the most critical issues is customer churn, which occurs when customers stop using their services. Losing customers not only impacts revenue but also incurs substantial costs in acquiring new ones. In this context, the analyzed Telco company has historical customer data, including demographic information, services used, and payment behaviors. Leveraging this data, a comprehensive analysis was conducted to identify churn patterns and develop a predictive model to estimate the likelihood of churn in the future.
 
 # **Problem Statement**
-To transform raw customer data into actionable business insights by analyzing the patterns, drivers, and risks associated with customer churn.
+In the highly competitive telecommunications industry, customer retention has become a business priority that is equally — if not more — important than acquiring new customers. The cost of acquiring a new customer can be up to five times higher than the cost of retaining an existing one. Therefore, companies need to implement data-driven strategies to identify customers at risk of churn before it happens. Unfortunately, many companies still struggle with recognizing the early signs that a customer is about to churn, identifying the key factors that contribute most to a customer’s decision to leave, and implementing the right interventions quickly and efficiently. This is where the role of predictive analytics and machine learning becomes crucial.
 
 # **Goals**
 1. **Churn Understanding**  
@@ -24,6 +24,12 @@ To transform raw customer data into actionable business insights by analyzing th
 4. **Operational Improvement**  
    Evaluate how services, billing methods, and contract structures correlate with churn, identifying levers for operational efficiency.
 
+5. **Building a Machine Learning Model**  
+   Building an accurate and interpretable machine learning–based churn prediction model.
+   
+6. **Providing Business Insights**  
+   Building an accurate and interpretable machine learning–based churn prediction model.
+   
 # **Analytical Approach**
 - Data understanding & cleaning
 - Perform exploratory data analysis (EDA) to identify patterns and correlations.
@@ -38,15 +44,15 @@ To transform raw customer data into actionable business insights by analyzing th
 - ROC-AUC Score: Measures the model’s ability to distinguish between churn and non-churn classes.
 
 # **Stakeholder**
-This notebook is designed for both data teams and executive stakeholders who seek a strategic understanding of churn dynamics and its implications for customer value and service design.
+This notebook is designed for marketing teams who seek a strategic understanding of churn dynamics and its implications for customer value and service design.
+> Marketing Teams
 
 # **Dataset Overview**
-**FEATURES**
 | Column | Description (EN) | Deskripsi (ID)
 | -- | --- | ---
 | Customer ID | Unique ID to each customer | ID unik setiap pelanggan
 | Gender | Whether the customer is a male or a female | Jenis kelamin pelanggan
-| Senior Citizen | Whether the customer is a senior citizen or not | Apakah pelanggan adalah warga lanjut usia
+| Senior Citizen | Whether the customer is a senior citizen or not (0 = No, 1 = Yes) | Apakah pelanggan adalah warga lanjut usia (0 = Tidak, 1 = Ya)
 | Partner | Whether the customer has a partner or not | Apakah pelanggan memiliki pasangan
 | Dependents | Whether the customer has dependents or not | Apakah pelanggan memiliki tanggungan
 | Tenure | Number of months the customer has stayed with the company | Lama waktu pelanggan sudah aktif/berlangganan hingga sekarang (bulan)
@@ -83,7 +89,71 @@ This notebook is designed for both data teams and executive stakeholders who see
 
 # **Recommendations**
 Based on the modeling results and interpretation of the most important features, several recommendations can be made:
+1. Prioritize High Churn Score Customers for Active Retention
+   - Business Actions:
+      - Focus retention efforts (special offers, discounts, bonuses) on high-risk churn customers.
+      - Create a “save offer” program for customers in their final month of active service.
+     
+   🎯 Expected Outcome:
+      > Reduce churn through faster and more targeted interventions.
 
+2. Offer Long-Term Contracts to Monthly Contract Customers
+   - Business Actions:
+      - Offer migration promos to annual contracts (e.g., 1-month free, extra data quota).
+      - Prioritize targeting customers who’ve subscribed for more than 6 months.
+
+   🎯 Expected Outcome:
+      > Reduce churn and increase long-term customer loyalty.
+
+3. Migrate Manual Payments to Digital / Auto-Pay Methods
+   - Business Actions:
+      - Encourage customers to switch to digital payment methods (e-wallets, debit, etc.).
+      - Offer cashback or waive admin fees for those who migrate.
+   
+   🎯 Expected Outcome:
+      > More stable customers, smoother payments, and reduced churn risk.
+   
+4. Educate New Customers
+   - Business Actions:
+      - Send onboarding content: tutorials, service benefit tips, first-time usage promos.
+      - Follow up after the first 30 days of subscription.
+   🎯 Expected Outcome:
+      > New customers feel more engaged → lower churn in the first 3 months.
+   
+5. Segment Campaigns by Demographic & Service Features
+   - Business Actions:
+      - For senior customers: provide simple, easy-to-use service packages.
+      - For customers without tech support: offer discounted bundled upgrades.
+      - For customers without internet: promote add-ons with special pricing.
+   
+   🎯 Expected Outcome:
+      > More personalized campaigns → higher relevance and engagement → reduced churn.
+
+6. Activate Payment Reminders & Early Warnings
+   - Business Actions:
+      - Send notifications or SMS reminders 5 days before payment due date.
+      - Add an “auto-reminder” feature for new customers.
+      - Set alerts for payments delayed over 1 week — flag as potential churn risk.
+   
+   🎯 Expected Outcome:
+      > Reduce churn caused by late payments & improve payment discipline.
+
+7. Tenure- and Usage-Based Loyalty Program
+   - Business Actions:
+      - Reward loyal customers annually (e.g., 1-month discount, partner vouchers).
+      - Launch a “Loyalty Milestone” program with membership levels (Bronze, Silver, Gold) based on tenure and usage.
+   
+   🎯 Expected Outcome:
+      > Customers feel valued → less likely to switch to competitors.
+
+8. Regularly Monitor Churn and Evaluate the Model
+   - Business Actions:
+      - Schedule churn model retraining every 3–6 months.
+      - Track important features (e.g., MonthlyCharges, Contract) and how they change over time.
+      - Use feedback from marketing and customer service teams to improve model accuracy.
+   
+   🎯 Expected Outcome:
+      > Churn predictions remain relevant, accurate, and responsive to customer behavior changes.
 ---
 
 # **Link Tableau**
